@@ -5222,17 +5222,6 @@
             "guid": "D&46#=zT4:",
             "note_model_uuid": "9a459ee5-b2a5-11ed-90f4-902e16475fcd",
             "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "deleteme",
-                "justtestin",
-                ""
-            ],
-            "guid": "i)vVQDLC9+",
-            "note_model_uuid": "9a459ee5-b2a5-11ed-90f4-902e16475fcd",
-            "tags": []
         }
     ],
     "reviewLimit": null,
