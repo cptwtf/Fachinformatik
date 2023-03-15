@@ -34,13 +34,20 @@
                     4,
                     0
                 ],
-                "order": 1,
+                "order": 0,
                 "perDay": 20
             },
             "newGatherPriority": 0,
             "newMix": 0,
             "newPerDayMinimum": 0,
             "newSortOrder": 0,
+            "reminder": {
+                "enabled": true,
+                "time": [
+                    12,
+                    0
+                ]
+            },
             "replayq": true,
             "rev": {
                 "bury": false,
@@ -56,7 +63,7 @@
     ],
     "desc": "Please see the <a href='https://ankiweb.net/shared/info/2026608329'>shared deck page</a> for more info.",
     "dyn": 0,
-    "extendNew": 0,
+    "extendNew": 10,
     "extendRev": 0,
     "media_files": [
         "beliebig.jpg",
@@ -225,7 +232,7 @@
             "__type__": "Note",
             "fields": [
                 "Unterschiede zwischen vollständigen, inkrementellen und differentiellen Backups?",
-                "\n<div id=\"skip-link\" class=\"nocontent\"><br /></div><div id=\"page-wrapper\"><div id=\"page\" class=\"page\"><div id=\"content-wrapper\"><div class=\"container\"><div id=\"columns\"><div class=\"columns-inner clearfix\"><div id=\"content-column\"><div class=\"content-inner\"><div class=\"region region-highlighted\"><div class=\"region-inner clearfix\"><div id=\"block-acronis-panes-acronis-panes-print\" class=\"block block-acronis-panes no-title odd first last block-count-6 block-region-highlighted block-acronis-panes-print\"><div class=\"block-inner clearfix\">\n</div></div></div></div>\n</div></div><div class=\"region region-one-main\"><div class=\"region-inner clearfix\"><div class=\"panel-pane pane-node-content no-title block\"><div class=\"block-inner clearfix\"><div class=\"block-content\"><article id=\"node-19639\" class=\"node node-article de article odd node-lang-de node-full clearfix\" role=\"article\"><div class=\"node-content\"><div class=\"field field-name-body field-type-text-with-summary field-label-hidden view-mode-full\"><div class=\"field-items\"><div class=\"field-item even\"><p><em>Wie unterscheiden sich das Voll-Backup, das differentielle Backup und das inkrementelle Backup voneinander?</em></p>\n<h4 class=\"kbContents\">Beschreibung</h4>\n<p align=\"justify\">Ein inkrementelles Backup enthält alle Änderungen, die seit dem letzten inkrementellen oder Voll-Backup erstellt wurden. Wenn ein Voll-Backup und mehrere inkrementelle Backups erstellt wurden, müssen diese Backups alle in demselben Ordner gespeichert werden, damit Sie die Daten wiederherstellen können. Wenn eines der inkrementellen Backups oder ein Voll-Backup gelöscht wird, können Sie die Gesamtgruppe nicht mehr wiederherstellen, da alle Backups voneinander abhängig sind.</p>\n<p align=\"justify\">Ein differentielles Backup enthält alle Änderungen, die nach der Erstellung des Voll-Backups vorgenommen wurden. Zur Wiederherstellung eines differentiellen Backups muss Acronis Backup-Software das differentielle Backup mit dem ursprünglichen Voll-Backup vergleichen.</p>\n<p align=\"justify\">Wenn Sie also die Größe und Zeit für Backups reduzieren möchten, sollten Sie am besten inkrementelle Backups erstellen. Wenn Sie allerdings die Zuverlässigkeit von Backups verbessern möchten, sodass Sie nicht auf eine Kette mehrerer inkrementeller Backups angewiesen sind, bieten sich differentielle Backups als optimale Lösung an.</p>\n<p align=\"justify\">Hier sehen Sie eine grafische Darstellung der Unterschiede zwischen Voll-Backups, inkrementellen Backups und differentiellen Backups:</p>\n<p class=\"rteindent1\" align=\"justify\"><a href=\"https://kb.acronis.com/sites/default/files/content/2006/05/1536/types_of_backup.png\" class=\"cboxElement\"><img src=\"https://kb.acronis.com/sites/default/files/content/2006/05/1536/types_of_backup.png\" alt=\"\" width=\"300\" class=\"jquery-once-2-processed\" /></a><a title=\"Full, incremental, differential backups\" href=\"http://kb.acronis.com/sites/default/files/content/2006/05/1536/types_of_backup.png\" target=\"_blank\"></a><a href=\"https://www.acronis.com/r/support/en/kb/469/Types_of_backup_thumb.png\" class=\"cboxElement\"><img src=\"https://www.acronis.com/r/support/en/kb/469/Types_of_backup_thumb.png\" alt=\"\" /></a></p>\n<p class=\"rteindent1\" align=\"justify\"> Klicken Sie auf das Bild, um es zu vergrößern</p>\n<h4 class=\"kbContents\">Weitere Informationen</h4>\n<p align=\"justify\">Wenn ein inkrementelles oder differentielles Backup erstellt wird, nachdem das Laufwerk defragmentiert wurde, kann seine Dateigröße ungewöhnlich stark ansteigen. Der Grund liegt darin, dass das Defragmentierungsprogramm zu viele Sektoren auf der Platte verändert hat und Backups diese Veränderungen widerspiegeln. Sie sollten daher nach einer Defragmentierung erneut ein Voll-Backup erstellen.</p></div></div></div></div></article></div></div></div></div></div></div></div></div></div></div></div><div id=\"goog-gt-tt\" class=\"skiptranslate\" dir=\"ltr\"><div class=\"bottom\" style=\"padding: 8px;\"><div class=\"started-activity-container\"><div class=\"activity-root\"></div></div></div><div class=\"status-message\" style=\"display: none;\"></div></div><div id=\"colorbox\" class=\"\" role=\"dialog\" tabindex=\"-1\" style=\"display: none;\"><div id=\"cboxWrapper\"><div><div id=\"cboxTopLeft\" style=\"float: left;\"></div><div id=\"cboxTopCenter\" style=\"float: left;\"></div><div id=\"cboxTopRight\" style=\"float: left;\"></div></div><div style=\"clear: left;\"><div id=\"cboxMiddleLeft\" style=\"float: left;\"></div><div id=\"cboxContent\" style=\"float: left;\"><div id=\"cboxTitle\" style=\"float: left;\"></div><div id=\"cboxCurrent\" style=\"float: left;\"></div><button type=\"button\" id=\"cboxPrevious\"></button><button type=\"button\" id=\"cboxNext\"></button><button type=\"button\" id=\"cboxSlideshow\"></button><div id=\"cboxLoadingOverlay\" style=\"float: left;\"></div><div id=\"cboxLoadingGraphic\" style=\"float: left;\"></div></div><div id=\"cboxMiddleRight\" style=\"float: left;\"></div></div><div style=\"clear: left;\"><div id=\"cboxBottomLeft\" style=\"float: left;\"></div><div id=\"cboxBottomCenter\" style=\"float: left;\"></div><div id=\"cboxBottomRight\" style=\"float: left;\"></div></div></div><div style=\"position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;\"></div></div><div class=\"goog-te-spinner-pos\"><div class=\"goog-te-spinner-animation\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"goog-te-spinner\" width=\"96px\" height=\"96px\" viewbox=\"0 0 66 66\"><circle class=\"goog-te-spinner-path\" fill=\"none\" stroke-width=\"6\" stroke-linecap=\"round\" cx=\"33\" cy=\"33\" r=\"30\"></circle></svg></div></div><iframe frameborder=\"0\" class=\"goog-te-menu-frame skiptranslate\" title='Widget \"Sprache übersetzen\"' style=\"visibility: visible; box-sizing: content-box; width: 1146px; height: 263px; display: none;\"></iframe>"
+                "\n<div id=\"skip-link\" class=\"nocontent\"><br></div><div id=\"page-wrapper\"><div id=\"page\" class=\"page\"><div id=\"content-wrapper\"><div class=\"container\"><div id=\"columns\"><div class=\"columns-inner clearfix\"><div id=\"content-column\"><div class=\"content-inner\"><div class=\"region region-highlighted\"><div class=\"region-inner clearfix\"><div id=\"block-acronis-panes-acronis-panes-print\" class=\"block block-acronis-panes no-title odd first last block-count-6 block-region-highlighted block-acronis-panes-print\"><div class=\"block-inner clearfix\">\n</div></div></div></div>\n</div></div><div class=\"region region-one-main\"><div class=\"region-inner clearfix\"><div class=\"panel-pane pane-node-content no-title block\"><div class=\"block-inner clearfix\"><div class=\"block-content\"><article id=\"node-19639\" class=\"node node-article de article odd node-lang-de node-full clearfix\" role=\"article\"><div class=\"node-content\"><div class=\"field field-name-body field-type-text-with-summary field-label-hidden view-mode-full\"><div class=\"field-items\"><div class=\"field-item even\"><p><em>Wie unterscheiden sich das Voll-Backup, das differentielle Backup und das inkrementelle Backup voneinander?</em></p>\n<h4 class=\"kbContents\">Beschreibung</h4>\n<p align=\"justify\">Ein inkrementelles Backup enthält alle Änderungen, die seit dem letzten inkrementellen oder Voll-Backup erstellt wurden. Wenn ein Voll-Backup und mehrere inkrementelle Backups erstellt wurden, müssen diese Backups alle in demselben Ordner gespeichert werden, damit Sie die Daten wiederherstellen können. Wenn eines der inkrementellen Backups oder ein Voll-Backup gelöscht wird, können Sie die Gesamtgruppe nicht mehr wiederherstellen, da alle Backups voneinander abhängig sind.</p>\n<p align=\"justify\">Ein differentielles Backup enthält alle Änderungen, die nach der Erstellung des Voll-Backups vorgenommen wurden. Zur Wiederherstellung eines differentiellen Backups muss Acronis Backup-Software das differentielle Backup mit dem ursprünglichen Voll-Backup vergleichen.</p>\n<p align=\"justify\">Wenn Sie also die Größe und Zeit für Backups reduzieren möchten, sollten Sie am besten inkrementelle Backups erstellen. Wenn Sie allerdings die Zuverlässigkeit von Backups verbessern möchten, sodass Sie nicht auf eine Kette mehrerer inkrementeller Backups angewiesen sind, bieten sich differentielle Backups als optimale Lösung an.</p>\n<p align=\"justify\">Hier sehen Sie eine grafische Darstellung der Unterschiede zwischen Voll-Backups, inkrementellen Backups und differentiellen Backups:</p>\n<p class=\"rteindent1\" align=\"justify\"><a href=\"https://kb.acronis.com/sites/default/files/content/2006/05/1536/types_of_backup.png\" class=\"cboxElement\"><img src=\"https://kb.acronis.com/sites/default/files/content/2006/05/1536/types_of_backup.png\" alt=\"\" width=\"300\" class=\"jquery-once-2-processed\"></a><a title=\"Full, incremental, differential backups\" href=\"http://kb.acronis.com/sites/default/files/content/2006/05/1536/types_of_backup.png\" target=\"_blank\"></a><a href=\"https://www.acronis.com/r/support/en/kb/469/Types_of_backup_thumb.png\" class=\"cboxElement\"><img src=\"https://www.acronis.com/r/support/en/kb/469/Types_of_backup_thumb.png\" alt=\"\"></a></p>\n<p class=\"rteindent1\" align=\"justify\"> Klicken Sie auf das Bild, um es zu vergrößern</p>\n<h4 class=\"kbContents\">Weitere Informationen</h4>\n<p align=\"justify\">Wenn ein inkrementelles oder differentielles Backup erstellt wird, nachdem das Laufwerk defragmentiert wurde, kann seine Dateigröße ungewöhnlich stark ansteigen. Der Grund liegt darin, dass das Defragmentierungsprogramm zu viele Sektoren auf der Platte verändert hat und Backups diese Veränderungen widerspiegeln. Sie sollten daher nach einer Defragmentierung erneut ein Voll-Backup erstellen.</p></div></div></div></div></article></div></div></div></div></div></div></div></div></div></div></div><div id=\"goog-gt-tt\" class=\"skiptranslate\" dir=\"ltr\"><div class=\"bottom\" style=\"padding: 8px;\"><div class=\"started-activity-container\"><div class=\"activity-root\"></div></div></div><div class=\"status-message\" style=\"display: none;\"></div></div><div id=\"colorbox\" class=\"\" role=\"dialog\" tabindex=\"-1\" style=\"display: none;\"><div id=\"cboxWrapper\"><div><div id=\"cboxTopLeft\" style=\"float: left;\"></div><div id=\"cboxTopCenter\" style=\"float: left;\"></div><div id=\"cboxTopRight\" style=\"float: left;\"></div></div><div style=\"clear: left;\"><div id=\"cboxMiddleLeft\" style=\"float: left;\"></div><div id=\"cboxContent\" style=\"float: left;\"><div id=\"cboxTitle\" style=\"float: left;\"></div><div id=\"cboxCurrent\" style=\"float: left;\"></div><button type=\"button\" id=\"cboxPrevious\"></button><button type=\"button\" id=\"cboxNext\"></button><button type=\"button\" id=\"cboxSlideshow\"></button><div id=\"cboxLoadingOverlay\" style=\"float: left;\"></div><div id=\"cboxLoadingGraphic\" style=\"float: left;\"></div></div><div id=\"cboxMiddleRight\" style=\"float: left;\"></div></div><div style=\"clear: left;\"><div id=\"cboxBottomLeft\" style=\"float: left;\"></div><div id=\"cboxBottomCenter\" style=\"float: left;\"></div><div id=\"cboxBottomRight\" style=\"float: left;\"></div></div></div><div style=\"position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;\"></div></div><div class=\"goog-te-spinner-pos\"><div class=\"goog-te-spinner-animation\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"goog-te-spinner\" width=\"96px\" height=\"96px\" viewBox=\"0 0 66 66\"><circle class=\"goog-te-spinner-path\" fill=\"none\" stroke-width=\"6\" stroke-linecap=\"round\" cx=\"33\" cy=\"33\" r=\"30\"></circle></svg></div></div><iframe frameborder=\"0\" class=\"goog-te-menu-frame skiptranslate\" title=\"Widget &quot;Sprache übersetzen&quot;\" style=\"visibility: visible; box-sizing: content-box; width: 1146px; height: 263px; display: none;\"></iframe>"
             ],
             "guid": "q2qywBtXu_",
             "note_model_uuid": "9a459ecd-b2a5-11ed-8198-902e16475fcd",
@@ -382,17 +389,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Angabe eines Klassennamens im Sequenzdiagramm: Zwei zu beachtende Punkte",
-                "- nach Doppelpunkt<br>- unterstrichen",
-                ""
-            ],
-            "guid": "r?cu9jW9`l",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Instanziierung einer Klasse im Sequenzdiagramm: Zwei zu beachtende Punkte (UML Notation?)",
                 "- Pfeil gestrichelt, Kopf offen<br>- kein Rückpfeil",
                 ""
@@ -508,17 +504,6 @@
                 ""
             ],
             "guid": "gsi;gO)^C{",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML: Verlinke auf eine lokale CSS.",
-                "<link rel=\"stylesheet\" type=\"text/css\" href=\"theme.css\">",
-                ""
-            ],
-            "guid": "nq|46(fT*:",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -680,7 +665,7 @@
             "__type__": "Note",
             "fields": [
                 "IP: Wie bestimmt die Gerätesoftware die Broadcastadresse aus Netzmaske und IP-Adresse?",
-                "ODER-Verknüpfung von IP-Adresse mit der invertierten Netzmaske",
+                "Die BC Adresse ist immer die letzte verggebare Adresse des eigenen Adressraums",
                 ""
             ],
             "guid": "M;fDM?PR;F",
@@ -966,7 +951,7 @@
             "__type__": "Note",
             "fields": [
                 "IP: Nenne vier Nachteile der Version 4 gegenüber der Version 6.",
-                "- zu kleiner Adressraum<br>- schlechte Aufteilung des Adressraums<br>- hohe Routerbelastung<br>- komplizierte Endgerätekonfiguration",
+                "- zu kleiner Adressraum<br>- geringere Sicherheit durch nicht standardmäßig verwendetes IPSec<br>- hohe Routerbelastung durch Fragmentierung&nbsp;<br>- komplizierte Endgerätekonfiguration",
                 ""
             ],
             "guid": "PKKxfgB#GA",
@@ -1229,17 +1214,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Quantitativer Angebotsvergleich: Gib die Formeln an für\n- Zieleinkaufspreis\n- Bareinkaufspreis\n- Bezugspreis",
-                "- Zieleinkaufspreis = Listenpreis - Liefererrabatt<br>- Bareinkaufspreis = Zieleinkaufspreis - Liefererskonto<br>- Bezugspreis = Bareinkaufspreis + Bezugskosten",
-                ""
-            ],
-            "guid": "wAD<G(JjBG",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "BP: Woraus können Bezugskosten bestehen? Nenne zwei.",
                 "- Fracht<br>- Transportversicherung",
                 ""
@@ -1256,17 +1230,6 @@
                 ""
             ],
             "guid": "I_.dj[QMPT",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Kaufvertrag: Welche Möglichkeiten der Nacherfüllung (vorrangige Rechte) bestehen?",
-                "- Nachbesserung<br>- Ersatzlieferung",
-                ""
-            ],
-            "guid": "x^fG&)7Gh,",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -1450,7 +1413,7 @@
             "__type__": "Note",
             "fields": [
                 "Netzplan: Was ist Gesamtpuffer, was ist Freier Puffer?",
-                "Gesamtpuffer: FEZ des Vorgangs - FAZ des Nachfolgers<br>Freier Puffer: SAZ - FAZ des Vorgangs (oder SEZ - FEZ)",
+                "Gesamtpuffer ist die zusätzliche Zeit, die eine Aufgabe verzögert werden kann, ohne das Projektende zu beeinflussen, während der freie Puffer die Zeit ist, die eine Aufgabe verzögert werden kann, ohne den Start der nachfolgenden Aufgaben zu beeinflussen.",
                 ""
             ],
             "guid": "ng)M6X7/3g",
@@ -1779,33 +1742,11 @@
         {
             "__type__": "Note",
             "fields": [
-                "Anwendungsfalldiagramm: Was gehört zur korrekten Darstellung eines Extension Points? Drei Punkte",
-                "- Erweiterte Use-Case beinhaltet unter der Überschrift \"Extension Points\" einen oder mehrere Fallnamen.<br>- Dem Pfeil des Extension Point wird eine Notiz angeheftet, die in geschweiften Klammern die Bedingung und dahinter die zugehörige Extension Point (aus dem erweiterten Use-Case) angibt.<br>- Ein weiterer Use-Case von dem der Extension Pfeil abgeht stellt den Vorgang des Extension Points dar.",
-                ""
-            ],
-            "guid": "fNqv_Eanf-",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "HTML: Zeige eine beliebige Bilddatei an.",
                 "<img src=\"beliebig.jpg\" alt=\"beliebiges Bild\">",
                 ""
             ],
             "guid": "b2Nxw5{UX~",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "HTML: Welches Tag ist zu nutzen für ein allgemeines \n- inline\n- block\nElement?",
-                "- <span><br>-<div>",
-                ""
-            ],
-            "guid": "GLetc=84sD",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -1988,28 +1929,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Verträge: Was ist der Unterschrid von Leih- zu Darlehens-?",
-                "Leih: unentgeldlich, Rückgabe der SELBEN Sachen<br>Darlehen: ent- oder unentgeldlich, Rückgabe von Sachen gleicher Art",
-                ""
-            ],
-            "guid": "cP<o[kUxe|",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Betriebliche Organisation: Welche sind die beiden Unterkategorien?",
-                "- Aufbauorganisation<br>- Ablauforganisation",
-                ""
-            ],
-            "guid": "IL+/xkbuHR",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Betriebliche Organisation: Was ist eine \"Stelle\" und durch welche drei Merkmale ist sie charakterisiert?",
                 "Kleinste organisatorische Einheit im Betrieb,<br>Zeichnet sich aus durch:<br>- Aufgaben<br>- Aufgabenträger<br>- Sachmittel",
                 ""
@@ -2044,32 +1963,10 @@
             "__type__": "Note",
             "fields": [
                 "Betriebliche Organisation: Was ist die Definition eines Projekts?",
-                "Zeitlich begrenzte Zusammenarbeit von Stelleninhabern um besondere Probleme zu lösen",
+                "<div><div><br></div><div><div></div><div></div></div></div><div><div><div></div></div><div><ul><li>Zeitlich begrenzt</li><li>Definiertes Ziel und Anforderungen</li><li>Festgelegte Ressourcen<br></li><li>Koordinierte Aufgaben</li><li>Einzigartig</li></ul></div></div>",
                 ""
             ],
             "guid": "gw)u*I)?BN",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Betriebliche Organisation: Woraus besteht eine Abteilung?",
-                "Aus einer Instanz (Abteilungsleiter) und mehrern weiteren Stellen",
-                ""
-            ],
-            "guid": "u[}w|IBgtM",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Aufbauorganisation: Welche beiden Arten gibt es?",
-                "- Funktionale Organisation<br>- Spartenorganisation",
-                ""
-            ],
-            "guid": "GJmdOvonjt",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -2092,17 +1989,6 @@
                 ""
             ],
             "guid": "v]pTLeKD97",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Betriebliche Prozesse: Nenne drei Geschäftsprozesse.",
-                "- Anfragebearbeitung<br>- Projektabwicklung<br>- Kundendienst und Wartung",
-                ""
-            ],
-            "guid": "Cx6-I86%+N",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -2136,17 +2022,6 @@
                 ""
             ],
             "guid": "x:j&59|I9N",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Geschäftsprozessoptimierung: Was darf nicht fehlen?",
-                "Dokumentation und Präsentation",
-                ""
-            ],
-            "guid": "x1iK!X*2J7",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -2263,17 +2138,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "ITS: Welches Gerät ersetzt die Kombination aus Switch und Router-on-a-Stick?",
-                "Layer-3-Switch",
-                ""
-            ],
-            "guid": "xRa:qS&htJ",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "OSPF: Wofür steht es und was wird dadurch ersetzt?",
                 "Open Shortest Path First<br>Es ersetzt das RIP-Protokoll",
                 ""
@@ -2340,17 +2204,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "IOS: Wofür steht die Abkürzung und was ist es?",
-                "Internetwork Operating System<br>ist das Betriebssystem von Routern und Switches von Cisco.",
-                ""
-            ],
-            "guid": "u<Vq024*8f",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "P2P: Welche Arten gibt es?",
                 "- Zentralisierte P2P-Systeme<br>- Reine P2P-Systeme<br>- Hybride (Hierarchische) P2P-Systeme",
                 ""
@@ -2362,8 +2215,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "TLS: Was bedeutet die Abkürzung und was ist die Veraltete Bezeichnung?",
-                "Transport Layer Security<br>Veraltet: SSL, Secure Sockets Layer",
+                "TLS: Was bedeutet die Abkürzung und was ist der Vorläufer?",
+                "Transport Layer Security<br>Vorläufer: SSL, Secure Sockets Layer",
                 ""
             ],
             "guid": "t`D}jAFyH:",
@@ -2650,19 +2503,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Wie heißen die zwei wesentliche objektorientierten Analyse- und Designverfahren bei der Entwicklung und Bereitstellung von Anwendungssystemen?",
-                "Klassenbildung <br>Paktebildung",
-                ""
-            ],
-            "guid": "rnkbq:5jMG",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": [
-                "doppelt"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Nenne die drei wesentlichen Dateisysteme.",
                 "NTFS FAT16/32 EXT2",
                 ""
@@ -2683,30 +2523,6 @@
             "tags": [
                 "doppelt"
             ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Nenne und erkläre kurz drei Beispiele von Verfahren zur Pflege und Verwaltung von Datenbeständen.",
-                "Aktualisierung: Datenbestände werden dem Stand der Zeit angepasst. Zum Beispiel werden Treiber optimiert oder Schulungsunterlagen überarbeitet. \"ALT\" wird durch \"_NEU\" ersetzt.<br>Datenbereinigung: Im Laufe der Zeit sammelt sich Datenmüll an. Zum Beispiel Temp-Dateien. mit speziellen Tools lassen sich diese Dateileichen schnell entfernen. Ergebnis: Mehr Speicherplatz und ein schnelleres System.<br>Datenabgleich: Dadurch lassen sich z.B. doppelte Dateibestände lokalisieren.",
-                ""
-            ],
-            "guid": "Ekw^yZ^wkj",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": [
-                "doppelt"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Gib Beispiele für Leistungsstörungen.",
-                "Leistungsstörung bedeutet, dass ein oder mehrere Vertragpartner ihren Verpflichtungen nicht nachkommen. Mögliche Leistungsstörungen sind:<br>- Zahlungsverzug<br>- Lieferungsverzug<br>-Schlechterfüllung<br>-Annahmeverzug (Gläubigerverzug)<br>-Unmöglichkeit",
-                ""
-            ],
-            "guid": "gWgTi(Sl/I",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
         },
         {
             "__type__": "Note",
@@ -2878,19 +2694,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Welche Software muss auf einem \"Thin-Client\" installiert sein, um ihn in die Terminalserver-Umgebung einzubinden?",
-                "Nur das Betriebssystem und eine Clientsoftware.",
-                ""
-            ],
-            "guid": "bXzK}z:-a_",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": [
-                "doppelt"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Nach welchen drei Ausführungsarten werden Programmiersprachen unterschieden?",
                 "-Compilersprache<br>-Interpretersprache<br>-Plattformunabhängige Sprachen",
                 ""
@@ -2942,7 +2745,7 @@
             "__type__": "Note",
             "fields": [
                 "Worin unterscheiden sich digitale und analoge Signale?",
-                "Signale (z.B. Bilder und Töne) können analog oder digital übertragen werden.<br>Bei der analogen Übertragung transportiert ein Spannungsverlauf die Information. Das kannst du dir wie eine Meereswelle mit einem ständigen Auf und Ab vorstellen. Wie eine Meereswelle (lassen wir einen großen Stein hineinfallen, ändert sich der Wellenverlauf) sind Spannungsverläufe störanfällig (Rauschen/Verzerrungen).<br>Beim digitalen Signal werden die Zahlen 0 und 1 in unterschiedlicher Reihenfolge übertragen. Jede Reihenfolge ergibt für sich eine andere Information. Da das Signal keinen Wellencharakter hat, sondern feste Größen, kommen die Signale immer sauber an. Es gibt keine Störungen.",
+                "<ul><li>Digitale Signale: diskret, binär (0 und 1) (Controller: Buchstabenknöpfe)</li><li>Analoge Signale: kontinuierlich, unendliche Werte (Controller: Trigger/Sticks)</li></ul>",
                 ""
             ],
             "guid": "Q/h>S`ZI_Y",
@@ -3050,19 +2853,6 @@
                 ""
             ],
             "guid": "C-MQ82%]NT",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": [
-                "doppelt"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Wie lauten die wesentlichen Merkmale einer Stabsstelle?",
-                "-Erfordern eine besondere Fachkompetenz (hoher Ausbildunsstand der Mitarbeiter)<br>-Haben keine Entscheidungsbefugnis<br>-Bereiten Entscheidungen lediglich vor<br>-Übernehmen keinerlei Führung",
-                ""
-            ],
-            "guid": "scvcI=8/(9",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": [
                 "doppelt"
@@ -3230,19 +3020,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Was macht das VDSL-Netz zu schnell?",
-                "Die enorm schnellen Geschwindigkeiten werden durch den Austausch eines Teils des Kabelnetzes durch superschnelle Glasfaserkabel erreicht.<br>Das geschieht jedoch nur außerhalb der \"letzten Meile\". Die Hausanschlüsse bleiben Kupferleitungen.",
-                ""
-            ],
-            "guid": "gNDdrDfD`",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": [
-                "doppelt"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Worin unterscheiden sich die Begriffe \"Update\" und \"Upgrade\"?",
                 "Bei beiden Begriffen handelt es sich um Releases.<br>Update ist die kleine Version. Hier werden wenige Änderungen zu einer Unterversion (aus 1.01 wird 1.02) zusammgefasst. Zum Beispiel die Beseitigung von Bugs.<br>Beim Upgrade sind die Änderungen sehr Umfangreich. Diese führen meist zu einer neuen Softwareversion (bspw. wird aus Windows 7 Windows 8).",
                 ""
@@ -3261,30 +3038,6 @@
                 ""
             ],
             "guid": "cwn)$(ss6m",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": [
-                "doppelt"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Blu-ray Disc, CD- und DVD-Rohlinge sind Speichermedien für Daten.\nWie viele Magabyte bzw. Gigabyte passen jeweils maximal drauf?",
-                "CD-Rohlinge:<br>900 Megabyte<br>DVD-Rohlinge:<br>4,38 Gigabyte (einschichtig)<br>Knapp 8 Gigabyte (zweischichtig)<br>Blu-ray Disc-Rohlinge:<br>25 Gigabyte (einschichtig)<br>50 Gigabyte (zweischichtig)<br>100/128 Gigabyte (drei/vierschichtig)",
-                ""
-            ],
-            "guid": "v#LWNLY668",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Wie ist es möglich, dass MP3-Musikdateien keinen hörbaren Qualitätsunterschied zu herkömmlichen Audio-CDs haben?",
-                "Eine klassische CD-Audio-Datei beinhaltet Frequenzbereiche, die vom menschlichen Gehör nicht wahrgenommen werden, jedoch Speicherplatz beanspruchen. Diese nicht hörbaren Frequenzen werden beim MP3-Verfahren \"weggeschnitten\".<br>Übrig bleibt der Hörgenuss in CD-Qualität mit enorm weniger Speicherplatzbedarf (nur 1/10).",
-                ""
-            ],
-            "guid": "Q1%+)Y~.)>",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": [
                 "doppelt"
@@ -3601,17 +3354,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Was ist ein Scanner?",
-                "Scanner \"lesen\" (bzw. scannen) Dokumente und Fotos in den Computer ein. Dazu tasten lichtempfindliche Sensoren die Vorlage ab, während die von einer Lampe durchleuchtet wird. Die eingelesenen Daten werden in Computerdtaen umgewandelt. Zum Beispiel PDF, JPG opder PNG.",
-                ""
-            ],
-            "guid": "Ng%8~L(+5r",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Wie lauten die Abkürzungen für einmal beschreibbare CD- und DVD-Rohlinge?",
                 "CD-Rohling: CD-R<br>DVD-Rohling: DVD-R/+R oder DVD-R/+R DL<br><br>R steht für das englische Wort \"Read\". Also (nur) Lesen.",
                 ""
@@ -3650,17 +3392,6 @@
                 ""
             ],
             "guid": "BK5{tjiO3C",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Was sind Bildpunkte?",
-                "Wenn du die Monitoroberfläche oder ein digitales Foto extrem heranzoomst, dann erkennst du winzig kleine Punkte. Aus diesen Punkten (auch Pixel genannt) besteht jedes digitale Foto bzw. Monitor-Bild.<br><br>Aus je mehr Punkten ein digitales Foto/Bild besteht, desto höher ist die Auflösung. Zum Beispiel 1.280 mal 768 Punkte (waagerecht mal senkrecht).<br><br>Je höher die Auflösung, desto detailreicher das Foto/Bild. Auch lässt es sich ohne Qualitätsverlust vergößern, desto mehr Punkte es beinhaltet.",
-                ""
-            ],
-            "guid": "iU-RI2{#:%",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -3749,17 +3480,6 @@
                 ""
             ],
             "guid": "OPua@n=P32",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Wann endet eine Berunfsausbildung?",
-                "- Dein Berufsausbildungsvertrag ist befristet. Wenn das Enddatum erreicht ist, endet deine Berufsausbildung.<br><br>- Mit dem Bestehen der Abschlussprüfung. Das ist der letzte Prüfungstag. Deine Berufsausbildung endet an diesem Tag, auch dann, wenn das Enddatum deines Berufsausbildungsvertrages weiter in der Zukunft liegt.<br><br>- Wenn du durch die Abschlussprüfung fällst, endet deine Berufsausbildung mit der Wiederholungsprüfung. Die Verlängerung deiner Berufsausbildung (max. ein Jahr!) musst du ausdrücklich von deinem Ausbildungsbetrieb verlangen.",
-                ""
-            ],
-            "guid": "J^8oUQ}%VH",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -3980,17 +3700,6 @@
                 ""
             ],
             "guid": "sTYhB1Rj|P",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Erkläre vier gängige Führungsstile.",
-                "Der Führungsstil ist die Art und Weise, wie Mitarbeiterführung gestaltet wird. Wir unterscheiden folgende gängige Führungsstile:<br><br>- autoritär (Befehl und Gehorsam)<br>- charismatisch (Führen durch Visionen)<br>- laissez-faire (gewähren lassen)<br>- kooperativ (gemeinsames Abstimmen)",
-                ""
-            ],
-            "guid": "BNIkPu&)0(",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -4263,19 +3972,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Was ist ein Bot-Netzwerk?",
-                "Ein Bot ist ein Programm, das selbstständig bestimmte Aktionen ausführt.<br>In einem Bot-Netzwerk sind mehrere Rechner mit Agriffs-Bots infiziert, die gemeinsame Agriffe auf Hosts ausführen.<br>Die Bots werden in der Regel unbemerkt über infizierte E-Mail-Anhänge eingeschleust. der User weiß also nichts von seiner Mittäterschaft.",
-                ""
-            ],
-            "guid": "j].nE;x>IP",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": [
-                "doppelt"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Nenne drei Server und deren Funktion im Netzwerk.",
                 "Nameserver: Auflösung von FQDN in IP-Adressen<br>Mailserver: Verteilung und Weiterleitung von E-Mails<br>Fileserver: Datenablage",
                 ""
@@ -4433,17 +4129,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Bei der Ideenfindung wird oft die Methode \"Brainstorming\" angewendet.\n\nWas ist das?",
-                "Das Brainstorming ist eine Kreativitätstechnik, die spontane Ideen für die Lösung eines (betrieblichen) Problems fördert.Bei einer Brainstorming-Konferenz sind in der Regel fünf bis acht Personen beteiligt. Die spontanen Ideen werden vom Moderator bzw. Schriftführer ohne Wertung niedergeschrieben. Weitere wichtige Merkmale sind:<br><br>- die Ideen dürfen nicht kritisiert werden<br>- alle Ideen werden festgehalten<br>- die Auswertung erfolgt später<br>- Ideen können auch noch nach der Brainstorming-Konferenz eingereicht werden (Nachhall-Effekt)",
-                ""
-            ],
-            "guid": "N>au:}Q]oU",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Nenne drei Nachteile für eine Terminalserver basierte Arbeitsumgebung.",
                 "Server-Lösungen sind eine Sicherheitsrisiko:<br><br>- fällt der Server aus, gehen die Kollegen nach Haus (Programme können nicht mehr gestartet werden).<br>- fällt das Netzwerk aus, nutz der schnellste Server nichts<br>- Wenn viele Clients auf den Server zugreifen, muss er sehr leistungsfähig sein. Das kann teuer werden.",
                 ""
@@ -4460,17 +4145,6 @@
                 ""
             ],
             "guid": "wxF;uQ{@@U",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Erkläre das ökonomische Prinzip.",
-                "Dem Prinzip liegt das rationale Handeln des Homo Oeconomicus (wirtschaftlich handelnder Mensch) zugrunde.<br><br>Maximumprinzip<br>Bsp: Ich habe 100,00Euro und möchte damit SO VIEL Lebensmittel wie möglich einkaufen (maximale Lebensmittel für 100,00 Euro)<br><br>Minimumprinzip<br>Bsp: Ich möchte eine bestimmte Menge Lebensmittel einkaufen (1x Butter, 2x Milch) und dasfür so wenig Geld wie möglich ausgeben (minimales Geld für Lebensmittel)",
-                ""
-            ],
-            "guid": "FjvQ+#@|*b",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -4534,19 +4208,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "Was ist ein Computernetzwerk?",
-                "So wie in sozialen Netzwerken (wie Facebook oder Google+) Menschen miteinander verbunden sind und Informationen austauschen, sind es in der Welt der Bits und Bytes Computer.<br><br>Die Verbindungen können per Kabel (mit Netzwerkarte) oder Funk (per WLAN-Karte) aufgebaut werden.<br><br>So können Daten in jeder Form und über jede Entfernung ausgetauscht werden. Das größte Netzwerk der Welt ist das Internet.",
-                ""
-            ],
-            "guid": "u;g>BszSn}",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Welche Vorteile hat ein VPN?",
-                "Günstig, weil eine bereits bestehende Internetverbindung genutzt werden kann.<br><br>Flexibel, weil ein Anbindung weiterer Standorte problemlos möglich ist.<br><br>Sicher, weil die Daten verschlüsselt durch das Internet geroutet werden.",
+                "Fernzugriff: Sichere Einbindung in lokale Netzwerke per remote<br><br>Anonymität: Verbirgt IP Adresse und Standort<br><br>Datenschutz: Verschlüsselter Datenverkehr",
                 ""
             ],
             "guid": "yLz9(:X_<{",
@@ -4572,17 +4235,6 @@
                 ""
             ],
             "guid": "zbs/k5wZB-",
-            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Erkläre die Technologie \"Bluetooth\".",
-                "Bluetooth ist die Bezeichnung für eine Funktechnik, die speziell für die Kommunikation über eine kurze Entfernung entwickelt wurde.<br><br>Über diese Funktechnik kommunizieren (Datenaustausch) zum Beispiel Handys, Notebooks und Computerzubehöre (Mäuse, Tastaturen etc.) miteinander.",
-                ""
-            ],
-            "guid": "ckEuDSY?W0",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
@@ -5106,22 +4758,44 @@
         {
             "__type__": "Note",
             "fields": [
-                "deleteme",
-                "justtestin",
+                "Was ist eine Factory Method?",
+                "Ein Design Pattern wobei ein Interface bereit gestellt wird um Objekte einer Superklasse zu erstellen. Subklassen können die Objekte verändern.<br>Eine Factory ist also ein Blueprint für Objekte.",
                 ""
             ],
-            "guid": "i)vVQDLC9+",
+            "guid": "D&46#=zT4:",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
-                "Was ist eine Factory Method?",
-                "Ein Design Pattern wobei ein Interface bereit gestellt wird um Objekte einer Superklasse zu erstellen. Subklassen können die Objekte verändern.<br>Eine Factory ist also ein Blueprint für Objekte.",
+                "Welches Verschlüsselungsverfahren nutzt TLS? Auch erläutern",
+                "Hybrides Verschlüsselungsverfahren.<br>1. Aushandlung eines Session Keys (synchron) mittel Private- und Public Keys (asynchron)<br>2. Kommunikation synchron mit Session Key verschlüsselt weil weniger Rechenintensiv.",
                 ""
             ],
-            "guid": "D&46#=zT4:",
+            "guid": "DN%Y-(50F}",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet XML well-formed und valid?",
+                "Well-Formed: Syntax stimmt, alle Tags korrekt wieder geschlossen und hierarisch verschachtelt<br>Valid: Well-Formed und Tag- -reihenfolge, -schachtelung und -werte gehen mit DTD oder XML-Schema konform.&nbsp;",
+                ""
+            ],
+            "guid": "qt.bjGAW3J",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet DTD? (XML)",
+                "Data Definition Document:<br>Legt verbindlich Vokabular und Grammatik (Keywords/Tags und Syntax) fest.<br>Ein XML Dokument dass alle Forderungen einhält ist eine Instanz eines DTD.",
+                ""
+            ],
+            "guid": "vbmMRqFw5]",
             "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
             "tags": []
         }
