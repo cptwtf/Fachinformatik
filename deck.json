@@ -67,73 +67,13 @@
     "extendRev": 0,
     "media_files": [
         "beliebig.jpg",
+        "image.png",
         "quizlet-aLEr.HA82qsQqMkLFuxd.A_m.jpg"
     ],
     "name": "Fachinformatik",
     "newLimit": null,
     "newLimitToday": null,
     "note_models": [
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9a459ecd-b2a5-11ed-8198-902e16475fcd",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "font": "Liberation Sans",
-                    "media": [],
-                    "name": "Front",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Back",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basic-63ba7",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "{{Front}}"
-                }
-            ],
-            "type": 0,
-            "vers": []
-        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
@@ -225,9 +165,455 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9a459ecd-b2a5-11ed-8198-902e16475fcd",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-63ba7",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
         }
     ],
     "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "5 Phasen der Software Entwicklung?",
+                "Analyse<br>Entwurf<br>Realisierung<br>Deployment<br>Betrieb und Wartung",
+                ""
+            ],
+            "guid": "B;]R86yBu;",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nenne 3 Vorgehensmodelle",
+                "Spiralmodell, Wasserfallmodell und Scrum",
+                ""
+            ],
+            "guid": "Pr5+Dz#:xp",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Waserfallmodell?",
+                "- sequentielles Durchlaufen der Phasen der Softwareentwicklung<br>- jede Phase muss abgeschlossen sein bevor die nächste begonnen werden kann<br>- geeignet für Projekte mit klaren Anforderungen und geringer Änderungswahrschienlichkeit (überschaubares Scope)",
+                ""
+            ],
+            "guid": "uBQeJA!b!(",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Spiralmodell?",
+                "- durchläuft zyklisch die Schritte Planung, Entwicklung und Überprüfung bis zum Abschluss des Projektes<br>- geeignet für Projekte mit hoher Unsicherheit und Änderungsanforderungen durch die Iterationen<br>- hohes Maß an Qulaitätssicherung und -management",
+                ""
+            ],
+            "guid": "D=Nu>$&iyN",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Scrum?",
+                "- agiles Projektmanagement Modell<br>- iterativer und inkrementeller Ansatz um Flexibilität zu ermöglichen<br>- besteht grundlegend aus Product Owner, Scrum Master und Dev Team<br>- Arbeit erfolgt in Sprints<br>- fördert Kommunikation und Zusammenarbeit im Team<br>- Projektfortschritt wird in Stand-up Meetings und Sprint Reviews überprüft",
+                ""
+            ],
+            "guid": "oMf+=h?Xmn",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist ein Scrum Master?",
+                "- leitet die Kommunikation des Teams und POs<br>- Überwachung und Förderung der Prozesse sowie der Scrum Regeln",
+                ""
+            ],
+            "guid": "tl`QJa}>b2",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Product Owner?",
+                "- verantwortlich für die Überwachung und Priorisierung der Anforderungen und Funktionalitäten des Produkts<br>- trägt die endgültige Verantwortung für die Zufriedenheit des Kunden und den Geschäftserfolg<br>- arbeitet eng mit dem Dev Team zusammen",
+                ""
+            ],
+            "guid": "iQ]a[`JwY}",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Scrum Sprint Zyklus?",
+                "- Sprintplanung (Sprintziele und Backlog)<br>- Dailys<br>- Sprint Review<br>- Sprint Retro",
+                ""
+            ],
+            "guid": "p<Bw_ob~8;",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sprint Review?",
+                "- findet nach jedem Sprint statt<br>- Fokus auf Sprint Ergebnis und Feedback zu erhalten",
+                ""
+            ],
+            "guid": "xW7gqn2B00",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sprint Retro?",
+                "- findet nach jedem Sprint statt<br>- Blick auf Ablauf des Sprints und Folgen/ Schlussfolgerungen",
+                ""
+            ],
+            "guid": "g=i0<D7VY>",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SMART Formel im Projektmanagement?",
+                "Specific Measurable Achievable Reasonable Timebound",
+                ""
+            ],
+            "guid": "ej^cO)v4ne",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DV Konzept?",
+                "- Datenverarbeitungskonzept<br>- konkrete technische Anforderungen<br>- basiert auf dem Pflichtenheft<br>- wird von einem Architekten für die Entwickler geschrieben<br>- Beschreibung der Ein- und Ausgabedaten der Verabreitungsalgorythmen<br>- Übersicht des Datenmodells (UML, ERM)",
+                ""
+            ],
+            "guid": "zx2e7QW1YE",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Magisches Dreieck?",
+                "- Qualität<br>- Kosten<br>- Zeit<br>you can only choose two",
+                ""
+            ],
+            "guid": "nL[;8?kpJ#",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist ein Projekt?",
+                "- zeitlich begrenzt<br>- begrenzte Ressourcen<br>- einmalige Durchführung<br>- eindeutig definiertes Ziel",
+                ""
+            ],
+            "guid": "L:uNZ46}m7",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bei der Netzplantechnik, wie entsteht der Gesamtpuffer?",
+                "SAZ - FAZ (Spätester Anfangszeitpunkt minus Frühester Anfangszeitpunkt)",
+                ""
+            ],
+            "guid": "z1WiUrz8xo",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bei der Netzplantechnik, wie entsteht der Freie Puffer?",
+                "Frühester Anfangszeitpunkt des Nachfolgers - Frühester Endzeitpunkt",
+                ""
+            ],
+            "guid": "JHGT)t{ze1",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gesamtpuffer vs. freier Puffer?",
+                "Gesamtpuffer bezieht sich auf das gesamte Projekt<br>Freier Puffer ist zu einem bestimmten Zeitpunkt tatsächlich nutzbare Pufferzeit",
+                ""
+            ],
+            "guid": "C9NqNgX`HB",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "PSP?",
+                "Projektstrukturplan: <br>- Einplanung des Projektes in Arbeitspaket<br>- Baumstruktur<br>- Keine Zeiten oder Abhängigkeiten",
+                ""
+            ],
+            "guid": "N@orOBSM2H",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lastenheft?",
+                "- Anforderungen und Wünsche des Auftraggebers an Produkt oder Dienstleistung<br>- detaillierte Informationen über Funktionalitäten, technische Anforderungen und Anforderungen an die Benutzerfreundlichkeit",
+                ""
+            ],
+            "guid": "tr#73>!vx3",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pflichtenheft?",
+                "- beschreibt Veranteortlichkeiten und Aufgaben aller Parteien im Projekt<br>- enthält Informationen welche Arbeiten von wem ausgeführt werden<br>- wie die Arbeiten koordiniert werden<br>- wer für Überwachung und Qualitätssicherung zuständig ist",
+                ""
+            ],
+            "guid": "Bl5ry_;|M8",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie setzt sich ein Stundensatz zusammen?",
+                "- Bruttogehalt<br>- Personalnebenkosten<br>- Gemeinkosten<br>- Gewinn (nur für externen Stundensatz)",
+                ""
+            ],
+            "guid": "K_I~g*c98k",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was beinhalten Personalnebenkosten?",
+                "- AG Anteil zur Sozialversicherung<br>- Beiträge zur Berufsgenossenschaft<br>- Aufwand nach Schwerbehindertengesetz und Mutterschutzgesetz<br>- bezahlte Abwesenheit (Urlaub, Feiertage, Krankheit)",
+                ""
+            ],
+            "guid": "1w_PBk>2A",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was beinhaltet der AG Anteil zur Sozialversicherung?",
+                "- Rentenversicherung (50%)<br>- Krankenversicherung (50%)<br>- Arbeitslosenversicherung (50%)<br>- Pflegeversicherung (50%)<br>- Unfallversicherung (100%)",
+                ""
+            ],
+            "guid": "u]z6r~7mN}",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Gemeinkosten?",
+                "- Miete/ Pacht<br>- Steuern<br>- Versicherungen<br>- Werbung",
+                ""
+            ],
+            "guid": "mfUJ?L@s(M",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Wirtschaftlichkeit in Namen der Kostenrechnung?",
+                "Erlöse geteilt durch die Kosten<br>(Firma hat Erträge in Höhe von 1 Millionen€ und einen Auftrag in Höhe von 800.000€: Wirtschaftlichkeit = 1 Million/800.000 = 1,25.&nbsp;<br>Liegt die Wirtschaftlichkeit über 1 bedeutet das Unternehmen arbeitet wirtschaftlich.)",
+                ""
+            ],
+            "guid": "c|0vS^:Fkg",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist der Unterschied zwischen Brutto und Netto?",
+                "Netto is das was ich effektiv beim Netto lassen kann.<br>(Brutto vor Steuer etc. Abzügen, Netto danach)",
+                ""
+            ],
+            "guid": "j}mcQFBJ(Q",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist der Unterschied zwischen Lohn und Gehalt?",
+                "Lohn wird für Arbeit pro Stunde gezahlt.<br>Gehalt wird monatlich gezahlt.",
+                ""
+            ],
+            "guid": "OG$2Hd^]W5",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welches Arbeitsentgeld erhält ein Azubi?",
+                "Ausbildungsvergütung",
+                ""
+            ],
+            "guid": "IGGH-n7eB1",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist die Beitragsbemessungsgrenze?",
+                "Gehaltsobergrenze bei der Berechnung der Sozialversicherungsbeiträge.",
+                ""
+            ],
+            "guid": "upR0OHu:0H",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Gemein- und Einzelkosten?",
+                "Gemeinkosten sind von der Produktionsmenge unabhängige Kosten.<br>Einzelkosten sind Kosten die direkt durch die Produktion eines Produkts oder einer Dienstleistung entstehen.",
+                ""
+            ],
+            "guid": "Ja<4ceJ}/q",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind fixe und Variable Kosten?",
+                "Fixe Kosten fallen immer an, variable nur wenn produziert wird.",
+                ""
+            ],
+            "guid": "pLilV^gir?",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Amortisation?",
+                "Der Punkt der Amortisation ist erreicht, wenn der finanzielle Mehrwert den der Anschaffungskosten übersteigt.",
+                ""
+            ],
+            "guid": "DGkL%~#184",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert eine Amortisationsrechnung?",
+                "&lt;Bisherige Kosten&gt;/&lt;Ersparnis pro Jahr&gt; = Amortisationszeitpunkt<br><img alt=\"Image\" src=\"image.png\">",
+                ""
+            ],
+            "guid": "t<oq5K@BE/",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Kostenkalkulation?",
+                "- benötigte Projektstunden<br>- Stundensatz der beteiligten Mitarbeiter<br>- Materialkosten",
+                ""
+            ],
+            "guid": "m4)94OY;ZL",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist eine Nutzwertanalyse?",
+                "- sinnvoll wenn die zu beachtenden Faktoren nicht in Zahlen gemessen werden können<br>- hilft bei der Abwägung von Risiken und Herausforderungen<br>- Gewichtung der zu beachtenden Faktoren<br>- wird im Punktesystem berechnet<br>- konsistente und nachvollziehbare Begründung der Skale",
+                ""
+            ],
+            "guid": "qm0CKI7#%i",
+            "note_model_uuid": "0a8d1a92-b84f-11ed-a84e-482ae3bc5835",
+            "tags": []
+        },
         {
             "__type__": "Note",
             "fields": [
